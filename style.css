@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+svg {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.st0 {
+    @apply  cursor-pointer fill-gray-200;
+}
+
+.st1 {
+    @apply  cursor-pointer;
+    fill:#002147;
+}
+
+.st0:hover {
+    fill:#002147;
+}
