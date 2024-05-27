@@ -7,16 +7,69 @@ svg {
     display: block;
     margin: auto;
 }
-
+.st0,st1{
+    stroke: #fff;
+    stroke-opacity: 0.9;
+              stroke-width: 0.5;
+}
 .st0 {
     @apply  cursor-pointer fill-gray-200;
 }
 
 .st1 {
     @apply  cursor-pointer;
-    fill:#002147;
+    fill:#118ea4;
 }
 
 .st0:hover {
-    fill:#002147;
+    fill:#118ea4;
 }
+
+.land {
+  fill: #e5e7eb;
+  fill-opacity: 1;
+  stroke: #fff;
+  stroke-opacity: 0.9;
+  stroke-width: 0.5;
+  /*z-index: 0;*/
+}
+.projectCountry {
+  fill: #118ea4;
+  cursor: pointer;
+}
+.projectCountry:hover {
+  /*fill: hsl(124, 85%, 23%);*/
+  fill: #118ea4;
+  /*fill: #124769; dark blue*/
+}
+.active {
+  fill: #118ea4;
+}
+.marker {
+  fill: rgb(180, 13, 13) !important;
+  fill-rule: nonzero;
+  stroke: white;
+  stroke-width: 1px;
+  cursor: pointer;
+}
+.tableProject {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+
+  .tableProject td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+
+  .tableProject td:first-child {
+    font-weight: bold;
+    background-color: #35586C; /* Dark blue */
+    color: #ffffff; /* White text */
+  }
+
+  .tableProject tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
