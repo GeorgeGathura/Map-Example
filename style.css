@@ -2,11 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-svg {
-    width: 90%;
-    display: block;
-    margin: auto;
-}
+
 .st0,st1{
     stroke: #fff;
     stroke-opacity: 0.9;
@@ -16,35 +12,20 @@ svg {
     @apply  cursor-pointer fill-gray-200;
 }
 
+.map-active {
+  fill: #118ea4;
+}
 .st1 {
     @apply  cursor-pointer;
-    fill:#118ea4;
+    fill:#35586C;
 }
-
+.st1:hover,.map-active{
+    fill:#12c2df ;
+}
 .st0:hover {
     fill:#118ea4;
 }
 
-.land {
-  fill: #e5e7eb;
-  fill-opacity: 1;
-  stroke: #fff;
-  stroke-opacity: 0.9;
-  stroke-width: 0.5;
-  /*z-index: 0;*/
-}
-.projectCountry {
-  fill: #118ea4;
-  cursor: pointer;
-}
-.projectCountry:hover {
-  /*fill: hsl(124, 85%, 23%);*/
-  fill: #118ea4;
-  /*fill: #124769; dark blue*/
-}
-.active {
-  fill: #118ea4;
-}
 .marker {
   fill: rgb(180, 13, 13) !important;
   fill-rule: nonzero;
